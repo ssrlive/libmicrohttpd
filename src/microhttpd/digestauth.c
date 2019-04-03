@@ -576,10 +576,10 @@ check_nonce_nc (struct MHD_Connection *connection,
   if ( (nc < nn->nc) &&
        (nc + 64 > nc /* checking for overflow */) &&
        (nc + 64 >= nn->nc) &&
-       (0 == ((1LLU << (nn->nc - nc - 1)) & nn->nmask)) )
+       (0 == (((uint64_t)1 << (nn->nc - nc - 1)) & nn->nmask)) )
     {
       /* Out-of-order nonce, but within 64-bit bitmask, set bit */
-      nn->nmask |= (1LLU << (nn->nc - nc - 1));
+      nn->nmask |= ((uint64_t)1 << (nn->nc - nc - 1));
 #if defined(MHD_USE_POSIX_THREADS) || defined(MHD_USE_W32_THREADS)
       MHD_mutex_unlock_chk_ (&daemon->nnc_lock);
 #endif

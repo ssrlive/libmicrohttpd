@@ -2433,7 +2433,7 @@ process_request_body (struct MHD_Connection *connection)
            (MHD_SIZE_UNKNOWN == connection->remaining_upload_size) )
         {
           if ( (connection->current_chunk_offset == connection->current_chunk_size) &&
-               (0LLU != connection->current_chunk_offset) &&
+               ((uint64_t)0 != connection->current_chunk_offset) &&
                (available >= 2) )
             {
               size_t i;
@@ -2541,7 +2541,7 @@ process_request_body (struct MHD_Connection *connection)
 
               if (available > 0)
                 instant_retry = MHD_YES;
-              if (0LLU == connection->current_chunk_size)
+              if ((uint64_t)0 == connection->current_chunk_size)
                 {
                   connection->remaining_upload_size = 0;
                   break;

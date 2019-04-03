@@ -3367,7 +3367,7 @@ MHD_get_timeout (struct MHD_Daemon *daemon,
       if (((unsigned long long)second_left) > ULLONG_MAX / 1000)
         *timeout = ULLONG_MAX;
       else
-        *timeout = 1000LLU * (unsigned long long) second_left;
+        *timeout = (unsigned long long)1000 * (unsigned long long) second_left;
   }
   return MHD_YES;
 }
