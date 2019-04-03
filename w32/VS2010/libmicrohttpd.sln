@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmicrohttpd", "libmicrohttpd\libmicrohttpd.vcxproj", "{3CEDBDA9-7AC4-468F-9983-49E1262B6BD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplepost", "simplepost\simplepost.vcxproj", "{9DC96FE9-1D51-4A4E-AD57-179AE564C47D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hellobrowser", "hellobrowser\hellobrowser.vcxproj", "{8A28BD0B-F3DA-4CF7-9D26-F26F2C1DF856}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "largepost", "largepost\largepost.vcxproj", "{FFDC0FEE-B1AE-4DCC-B3BA-99AF7EEBC29B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CEDBDA9-7AC4-468F-9983-49E1262B6BD7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CEDBDA9-7AC4-468F-9983-49E1262B6BD7}.Debug|Win32.Build.0 = Debug|Win32
+		{3CEDBDA9-7AC4-468F-9983-49E1262B6BD7}.Release|Win32.ActiveCfg = Release|Win32
+		{3CEDBDA9-7AC4-468F-9983-49E1262B6BD7}.Release|Win32.Build.0 = Release|Win32
+		{9DC96FE9-1D51-4A4E-AD57-179AE564C47D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DC96FE9-1D51-4A4E-AD57-179AE564C47D}.Debug|Win32.Build.0 = Debug|Win32
+		{9DC96FE9-1D51-4A4E-AD57-179AE564C47D}.Release|Win32.ActiveCfg = Release|Win32
+		{9DC96FE9-1D51-4A4E-AD57-179AE564C47D}.Release|Win32.Build.0 = Release|Win32
+		{8A28BD0B-F3DA-4CF7-9D26-F26F2C1DF856}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A28BD0B-F3DA-4CF7-9D26-F26F2C1DF856}.Debug|Win32.Build.0 = Debug|Win32
+		{8A28BD0B-F3DA-4CF7-9D26-F26F2C1DF856}.Release|Win32.ActiveCfg = Release|Win32
+		{8A28BD0B-F3DA-4CF7-9D26-F26F2C1DF856}.Release|Win32.Build.0 = Release|Win32
+		{FFDC0FEE-B1AE-4DCC-B3BA-99AF7EEBC29B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFDC0FEE-B1AE-4DCC-B3BA-99AF7EEBC29B}.Debug|Win32.Build.0 = Debug|Win32
+		{FFDC0FEE-B1AE-4DCC-B3BA-99AF7EEBC29B}.Release|Win32.ActiveCfg = Release|Win32
+		{FFDC0FEE-B1AE-4DCC-B3BA-99AF7EEBC29B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

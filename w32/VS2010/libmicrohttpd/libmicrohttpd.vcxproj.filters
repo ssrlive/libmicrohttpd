@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libmicrohttpd">
+      <UniqueIdentifier>{f59f14f8-a60f-4326-9eba-8fff36b6da00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{76c0ba52-4b2a-4d9a-85ad-da0b559c8bf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\microhttpd\base64.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\basicauth.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\connection.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\daemon.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\digestauth.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\internal.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\md5.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\memorypool.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\mhd_compat.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\mhd_itc.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\mhd_mono_clock.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\mhd_sockets.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\mhd_str.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\mhd_threads.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\postprocessor.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\reason_phrase.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\response.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\sha256.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\sysfdsetsize.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\microhttpd\tsearch.c">
+      <Filter>libmicrohttpd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\microhttpd\base64.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\connection.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\internal.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\md5.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\memorypool.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_assert.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_byteorder.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_compat.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_itc.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_itc_types.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_limits.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_locks.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_mono_clock.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_sockets.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_str.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\mhd_threads.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\response.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\sha256.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\sysfdsetsize.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\microhttpd\tsearch.h">
+      <Filter>libmicrohttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\autoinit_funcs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\mhd_options.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\microhttpd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\microhttpd_tls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\microhttpd2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\include\platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\MHD_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
